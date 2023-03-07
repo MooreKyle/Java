@@ -1,0 +1,18 @@
+Programming Assignment #1: Display Information
+
+Program Problem: (Area and perimeter of a rectangle) Write a program that displays the area and perimeter of a rectangle with a width of 4.5 and a height of 9.7 using the following formulas:
+
+area = width x height
+
+perimeter = (2 x width) + (2 x height)
+
+Documentation: You must use a readable, logical, and coherent set of style and formatting rules. You are to stick to the "structured approach" in programming. Be sure to comment your code. Each submission must have a block comment area that includes: Your first and last name, program exercise title, program due date, and program description.
+
+Submission Details: All submissions are electronic. When you turn in a programming assignment, you must send me a compilable and correctly working copy of the assigned program source code. I will, at my discretion, compile and run (on my own test input) the programs you submit electronically. This is a part of my grading procedure. Your program must work. That means it must compile correctly, run according to specifications, and give correct results. Generally, a program that works will receive at least 40-50 percent of full credit. The rubric used for scoring is visible to you so please review it before you submit your assignment. Submit your source file for this program this means you are giving me your <.java> file not a link to an online compiler, text file, or executable file.
+
+For full credit, your program must also meet the following criteria:
+
+Good design, including good algorithms.
+Good form, including documentation, and readability.
+Adequate testing, especially the testing of data boundaries and special cases.
+You need to do a good job on all the criteria in order to receive an "A" on your program.

@@ -1,0 +1,14 @@
+Programming Assignment #2: Calculate Tips
+
+Program Problem: Write a program that reads the subtotal and the gratuity rate, then computes the gratuity and total. For example, if the user enters 10 for the subtotal and 15% for the gratuity rate the program displays $1.5 as gratuity and $11.5 as the total. Your program will then ask the user if they wish to pay the entire bill or split the bill between 2, 3, and 4 people. It will then display the amount each person in the party must pay to cover the bill. So if the above bill was split between 2 people, the program would then display $5.75 per person.
+
+Documentation: You must use a readable, logical, and coherent set of style and formatting rules. You are to stick to the "structured approach" in programming. Be sure to comment your code. Each submission must have a block comment area that includes: Your first and last name, program exercise title, program due date, and the program description.
+
+Submission Details: All submissions are electronic. When you turn in a programming assignment, you must send me a compilable and correctly working copy of the assigned program source code. I will, at my discretion, compile and run (on my own test input) the programs you submit electronically. This is a part of my grading procedure. Your program must work. That means it must compile correctly, run according to specifications, and give correct results. Generally, a program that works will receive at least 40-50 percent of full credit. The rubric used for scoring is visible to you so please review it before you submit your assignment. Submit your source file for this program this means you are giving me your <lastnameCalcTips.java> file not a link to an online compiler, text file, or executable file.
+
+For full credit, your program must also meet the following criteria:
+
+Good design, including good algorithms.
+Good form, including documentation, and readability.
+Adequate testing, especially the testing of data boundaries and special cases.
+You need to do a good job on all the criteria to receive an "A" on your program.
