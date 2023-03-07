@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane id="AnchorPane" prefHeight="436.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaapplication126.java.FXMLController">
+   <children>
+      <BarChart categoryGap="20.0" prefHeight="412.0" prefWidth="600.0" title="Overall Grade Percentage">
+        <xAxis>
+          <CategoryAxis id="x" label="Assignment Category" startMargin="0.0" fx:id="x" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis id="y" fx:id="y" label="Grade Percentage" prefHeight="314.0" prefWidth="57.0" side="LEFT" tickLabelGap="5.0" upperBound="90.0" />
+        </yAxis>
+      </BarChart>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="67.0" layoutX="94.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3700ff" height="34.0" layoutX="223.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#37ff00" height="100.0" layoutX="347.0" layoutY="267.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd129" height="200.0" layoutX="474.0" layoutY="167.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+      <TextField layoutX="115.0" layoutY="398.0" prefHeight="26.0" prefWidth="57.0" text="Projects" />
+      <TextField layoutX="244.0" layoutY="398.0" prefHeight="26.0" prefWidth="58.0" text="Quizzes" />
+      <TextField layoutX="347.0" layoutY="398.0" prefHeight="26.0" prefWidth="100.0" text="Midterm Exams" />
+      <TextField layoutX="488.0" layoutY="398.0" prefHeight="26.0" prefWidth="71.0" text="Final Exam" />
+      <ButtonBar layoutX="73.0" layoutY="70.0" prefHeight="40.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
